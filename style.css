@@ -1,0 +1,23 @@
+h1 {
+  color: #8ac8d8;
+  font-style: italic;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+body {
+  background-color: #1e9ad8;
+}
+
+form {
+  background-color: #ffffff;
+  width: 70%;
+  text-align: left;
+}
+
+li {
+    color: white;
+    font-size: 1em;
+}
