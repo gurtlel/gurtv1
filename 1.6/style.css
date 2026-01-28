@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(248, 248, 125, 0.785);
+}
+
+.header{
+    color: rgb(16, 137, 24);
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+    border: 3px dotted rgb(0, 0, 0);
+}
+
+.subheader{
+    font-size: medium;
+    text-align: center;
+    border: 2px dotted rgb(0, 0, 0);
+    width: 25%;
+    text-decoration: underline;
+    color: rgb(16, 137, 24);
+}
+
+.text{
+    color: royalblue;
+    width: 25%;
+    text-align:center;
+}
+
+.profile-img{
+    height: auto;
+    border: 3px solid black;
+    border-radius: 100px;
+}
