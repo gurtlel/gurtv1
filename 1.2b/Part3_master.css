@@ -5,30 +5,45 @@
 /*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors */
 /*Class selectors start with a dot . */
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+#pageTitle {
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
 .intro-section {
   color: blue;
   font-size: 18px;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 .content-section {
   background-color: lightgray;
-  padding: 10px;
+  padding: 25px;
+  margin: 10px 0;
+  font-size: 16px;
 }
 
 .highlight-section {
   border: 2px solid orange;
   font-weight: bold;
+  padding: 20px;
+  margin: 30px 0;
+  color: darkorange;
 }
 
 .footer-section {
   background-color: #222;
   color: white;
   text-align: center;
-}
-
-/* ID selector */
-
-#pageTitle {
-  color: red;
-  text-decoration: underline;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
 }
